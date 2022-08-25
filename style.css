@@ -10,7 +10,7 @@
 }
   #info{
    margin: -18px 0 0 20px;
-   width: 90%;
+   width: 85%;
 }
 #cake-img{
   width: 95%;
@@ -43,6 +43,73 @@ small, b{
 }
 .coloured{
   color: #f2994a;
+}
+.ingredients, .instructions {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.input{
+  display: flex;
+  margin-top: 10px
+}
+.detail{
+  position: relative;
+  top: 15px;
+}
+.ingredients input{
+  margin: 15px 5px 0 0;
+}
+.ingredients p i{
+ position: relative;
+ top: 10px;
+}
+.last input{
+  margin-top: -40px;
+}
+.instructions{
+  margin-top: 20px;
+}
+.instructions label{
+  line-height: 1.5;
+}
+.inst{
+   position: relative;
+   top: -2rem;
+}
+.num{
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: #f2994a;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+}
+.num p{
+  position: relative;
+  top: 5px;
+  left: 0;
+}
+.detail-inst{
+  width: 90%;
+  position: relative;
+  top: -2.5rem;
+  left: 2rem;
+}
+.bottom {
+  position: relative;
+  bottom: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.bottom a, #source{
+  color: black;
+}
+#source{
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+  font-size: 0.7rem;
 }
 @media (min-width:768px){
   body{
@@ -87,4 +154,21 @@ small, b{
   .time-text{
     display: block;
   }
+  .ingredients{
+    width: 60%;
+  }
+  .input input{
+    width: 50px;
+    position: relative;
+   
+  }
+ .num{
+   height: 50px;
+   width: 50px;
+ }
+ .detail-inst{
+   position: relative;
+   left: 4rem;
+   top: -4rem;
+ }
 }
